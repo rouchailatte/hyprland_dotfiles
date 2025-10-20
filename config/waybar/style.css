@@ -1,0 +1,152 @@
+/* BYYB Terminal Core - Waybar Style */
+/* Theme: White (Current) */
+
+* {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 12px;
+    font-weight: normal;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    padding: 0;
+    margin: 0;
+}
+
+/* Workspaces */
+#workspaces {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-right: 1px solid #000000;
+    border-radius: 0;
+    min-width: 30px;
+}
+
+#workspaces button.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background-color: #808080;
+}
+
+/* Window title */
+#window {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0 10px;
+    border-right: 1px solid #000000;
+    font-weight: normal;
+}
+
+/* Clock */
+#clock {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0 10px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    font-weight: bold;
+}
+
+/* Right modules */
+#cpu,
+#memory,
+#disk,
+#temperature,
+#pulseaudio,
+#network,
+#battery,
+#tray,
+#custom-theme,
+#custom-font,
+#custom-kitty-theme {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0 10px;
+    border-left: 1px solid #000000;
+}
+
+#battery.charging {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#battery.warning {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#battery.critical {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#pulseaudio.muted {
+    background-color: #808080;
+    color: #000000;
+}
+
+/* Tray */
+#tray {
+    background-color: #ffffff;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #000000;
+}
+
+/* Tooltips */
+tooltip {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+
+tooltip label {
+    color: #ffffff;
+}
+
+/* System monitoring modules */
+#cpu,
+#memory,
+#disk {
+    font-weight: normal;
+}
+
+#temperature.critical {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#network:hover {
+    background-color: #808080;
+}
+
+/* Custom modules */
+#custom-theme:hover,
+#custom-font:hover,
+#custom-kitty-theme:hover {
+    background-color: #808080;
+}

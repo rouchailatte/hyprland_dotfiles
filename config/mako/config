@@ -1,0 +1,33 @@
+# BYYB Terminal Core - Mako Notifications
+# Brutalist Black & White
+
+font=Monospace 11
+background-color=#ffffff
+text-color=#000000
+border-color=#000000
+border-size=2
+border-radius=0
+padding=10
+margin=10
+width=300
+height=100
+default-timeout=5000
+ignore-timeout=0
+max-visible=3
+layer=overlay
+anchor=top-right
+
+[urgency=low]
+background-color=#ffffff
+text-color=#808080
+border-color=#808080
+
+[urgency=normal]
+background-color=#ffffff
+text-color=#000000
+border-color=#000000
+
+[urgency=critical]
+background-color=#000000
+text-color=#ffffff
+border-color=#000000

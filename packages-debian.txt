@@ -1,0 +1,18 @@
+# Note: Hyprland may need to be compiled from source or use PPA
+waybar
+wofi
+mako-notifier
+kitty
+policykit-1-gnome
+xdg-desktop-portal-gtk
+dunst
+rofi
+grim
+slurp
+wl-clipboard
+swaylock
+swayidle
+playerctl
+pavucontrol
+network-manager-gnome
+blueman
