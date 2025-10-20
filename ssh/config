@@ -1,0 +1,7 @@
+Host byyb
+    HostName 101.132.227.42
+    User root
+    IdentityFile ~/.ssh/key1
+    ServerAliveInterval 60
+    ServerAliveCountMax 10
+    TCPKeepAlive yes

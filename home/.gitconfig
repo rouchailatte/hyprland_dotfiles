@@ -1,0 +1,21 @@
+[user]
+	email = byyagp@gmail.com
+	name = rouchailatte
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[alias]
+	a = add
+	aa = add .
+	c = commit
+	cm = commit -m
+	p = push
+	pl = pull
+	s = status
+	co = checkout
+	b = branch
+	l = log --oneline
+	d = diff
